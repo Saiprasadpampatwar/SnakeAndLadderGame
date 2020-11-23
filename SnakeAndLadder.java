@@ -36,7 +36,7 @@ public class SnakeAndLadder {
 		int players_position = a;
 		int number_on_die = 1 + (int) Math.floor(Math.random() * 6);
 	    System.out.println("Number on die : "+ number_on_die);
-	    int option = (int) Math.floor(Math.random() * 2);
+	    int option = (int) Math.floor(Math.random() * 3);
 	    if (option == 0) {
 	    	System.out.println("Not Playing");
 	    	return players_position;
